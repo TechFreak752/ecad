@@ -1,0 +1,10 @@
+{
+    "rust-analyzer.check.allTargets": true,
+    "rust-analyzer.check.targets": [
+        "wasm32-unknown-unknown",       // Web support (trunk / web app) 
+        "x86_64-unknown-linux-gnu",     // Linux (x86)
+        "aarch64-unknown-linux-gnu",    // Linux (arm)
+        "x86_64-pc-windows-gnu",        // Windows
+        "x86_64-apple-darwin",          // Mac
+    ]
+}
